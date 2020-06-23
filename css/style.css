@@ -252,7 +252,54 @@ header {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-
+/* Single movie */
+.main-content-2 {
+  width: 1100px;
+  height: 1300px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.movie-detail{
+  margin-left: 20px;
+  
+}
+.poster-1 {
+  margin-right: 10px;
+}
+.movie-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.movie-summary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.movie-meta {
+  padding-bottom: 10px;
+}
+.entry-content h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.movie-meta li {
+  text-decoration: none;
+}
 /* About page */
 .about-section {
   display: flex;
